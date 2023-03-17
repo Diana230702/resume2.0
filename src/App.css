@@ -1,38 +1,124 @@
-.App {
+.wrapper {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(235, 229, 229);
+  width: 260px;
+  height: 570px;
+  margin: 15px;
+}
+
+.img_logo {
+  width: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_list > ul {
+  display: flex;
+  width: 480px;
+  justify-content: space-around;
+  margin-top: 28px;
+}
+
+.nav_logo > ul {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  width: 300px;
+  margin-left: 130px;
+}
+
+.nav_button {
+  align-items: center;
+  display: flex;
+  width: 90px;
+  height: 30px;
+  border: none;
+  margin-top: 3px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.img_telega {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.sidebar_image {
+  width: 260px;
+  height: 200px;
+}
+
+.info {
+  margin: 30px;
+}
+
+.name {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.prof {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img_resume {
+  width: 920px;
+  height: 480px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo_home {
+  width: 50px;
+  margin-top: -15px;
+}
+
+.portfolio_img {
+  width: 930px;
+  height: 360px;
+  position: absolute;
+  z-index: -1;
+}
+.card {
+  width: 240px;
+  height: 240px;
+  background-color: aqua;
+  bottom: 200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card_wrapper {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 240px;
+}
+
+.resume {
+  width: 400px;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.resume_wrapper {
+  display: flex;
+}
+
+.resume_info {
+  margin-top: 200px;
+  margin-left: 20px;
 }
